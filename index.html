@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AA Anime – Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">AA Anime</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movies</a>
+      <a href="tvseries.html">TV Series</a>
+      <a href="ongoing.html">Ongoing</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="browse.html">Browse</a>
+    </nav>
+    <div class="search">
+      <input type="text" placeholder="Search anime...">
+    </div>
+  </header>
+
+  <!-- HERO CAROUSEL -->
+  <section class="hero">
+    <div class="carousel">
+      <div class="slides">
+        <div class="slide active">
+          <img src="images/demonslayer.jpg" alt="Demon Slayer">
+          <div class="caption">Demon Slayer – Latest Episode</div>
+        </div>
+        <div class="slide">
+          <img src="images/onepiece.jpg" alt="One Piece">
+          <div class="caption">One Piece – Episode 1080</div>
+        </div>
+        <div class="slide">
+          <img src="images/naruto.jpg" alt="Naruto">
+          <div class="caption">Naruto – Classic Arc</div>
+        </div>
+      </div>
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="container main">
+    <!-- Latest Episodes -->
+    <section class="section">
+      <div class="section-header"><h2>Latest Episodes</h2></div>
+      <div class="cards">
+        <a class="card" href="#">
+          <div class="thumb">
+            <img src="images/demonslayer.jpg" alt="Demon Slayer">
+            <span class="chip">Ep 12</span>
+          </div>
+          <div class="card-body">
+            <div class="title">Demon Slayer</div>
+            <div class="subtitle">Episode 12</div>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="thumb">
+            <img src="images/onepiece.jpg" alt="One Piece">
+            <span class="chip">Ep 1080</span>
+          </div>
+          <div class="card-body">
+            <div class="title">One Piece</div>
+            <div class="subtitle">Episode 1080</div>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="thumb">
+            <img src="images/naruto.jpg" alt="Naruto">
+            <span class="chip">Ep 220</span>
+          </div>
+          <div class="card-body">
+            <div class="title">Naruto</div>
+            <div class="subtitle">Final Episode</div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 AA Anime. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
